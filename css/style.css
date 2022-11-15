@@ -1,0 +1,277 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* REGOLE GENERALI */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* --- STRUTTURA HEADER --- */
+
+header {
+    min-height: 70px;
+}
+
+.container-header {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logo, .login {
+    width: 25%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.logo {
+    text-align: left;
+}
+
+.link {
+    width: 75%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.container-header .link a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    text-align: right;
+}
+
+/* --- STRUTTURA MAIN --- */
+
+/* CONTAINER SECTION INTERNI */
+.general-container {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+}
+
+.big-container {
+    width: 60%;
+    height: 100%;
+}
+
+.small-container {
+    width: 40%;
+    height: 100%;
+}
+
+/*  FIRST SECTION */
+.first-section {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.first-container {
+    width: 900px;
+    height: 400px;
+}
+
+/*  SECOND SECTION */
+.second-section {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+/*  THIRD SECTION */
+.third-section {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+/*  FOURTH SECTION */
+.fourth-section {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+/*  FIFTH SECTION */
+.fifth-section {
+    min-height: 900px;
+    display: flex;
+    align-items: center;
+}
+
+.fifth-container {
+    width: 1200px;
+    height: 800px;
+}
+
+/* LAST SECTION */
+.last-section {
+    min-height: 600px;
+}
+
+.last-container {
+    width: 1200px;
+    height: 550px;
+    display: flex;
+}
+
+.last-big-container {
+    width: 25%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.last-small-container {
+    width: 18.75%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+/* --- STRUTTURA FOOTER --- */
+footer {
+    min-height: 90px;
+    border-top: 2px solid #ffffff;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-container {
+    width: 1200px;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-footer {
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+/* --- DEBUG - HEADER --- */
+.debug header {
+    background-color: #add8e6;
+}
+
+.debug .logo {
+    background-color: #daa520;
+    border: 2px dashed black; 
+}
+
+.debug .link {
+    background-color: #daa520;
+    border: 2px dashed black;    
+}
+
+.debug .login {
+    background-color: #daa520;
+    border: 2px dashed black; 
+}
+
+/* --- DEBUG - MAIN --- */
+/* FIRST SECTION */
+.debug .first-section {
+    background-color: #00008b;
+}
+
+.debug .first-container {
+    border: 2px dashed black;
+    background-color: #ee82ee;
+}
+
+/* SECOND SECTION */
+.debug .second-section {
+    background-color: #ffffff;
+}
+
+.debug .big-container {
+    background-color: #1e90ff;
+    border: 2px dashed black; 
+}
+
+.debug .small-container {
+    background-color: #ffc0cb;
+    border: 2px dashed black; 
+}
+
+/* THIRD SECTION */
+.debug .third-section {
+    background-color: #d3d3d3;
+}
+
+/* FOURTH SECTION */
+.debug .fourth-section {
+    background-color: #ffffff;
+}
+
+/* FIFTH SECTION */
+.debug .fifth-section {
+    background-color: #d3d3d3;
+}
+
+.debug .fifth-container {
+    background-color: #228b22;
+    border: 2px dashed black; 
+}
+
+/* LAST-SECTION */
+.debug .last-section {
+    background-color: #23272a;
+}
+
+.debug .last-big-container{
+    background-color: #f08080;
+    border: 2px dashed black; 
+}
+
+.debug .last-small-container {
+    background-color: #20b2aa;
+    border: 2px dashed black; 
+}
+
+/* --- DEBUG - FOOTER --- */
+.debug footer {
+    background-color: #23272a;
+}
+
+.debug .footer-container {
+    background-color: #7fffd4;
+}
+
+.debug .content-footer {
+    background-color: #ffb6c1;
+    border: 2px dashed black; 
+}
+
+
+
+
+
