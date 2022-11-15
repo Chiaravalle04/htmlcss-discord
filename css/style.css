@@ -92,11 +92,42 @@ header {
     min-height: 500px;
     display: flex;
     align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .first-container {
-    width: 900px;
+    width: 650px;
     height: 400px;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.first-container h1 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.first-container p {
+    color: #ffffff;
+    line-height: 1.625;
+    margin-bottom: 30px;
+}
+
+.first-container button {
+    padding: 13px 20px;
+    border-radius: 33px;
+    background-color: #ffffff;
+    border-style: none;
+    font-size: 15px;
+}
+
+.first-container #open-discord {
+    padding: 14px 20px;
+    color: #ffffff;
+    background-color: #23272a;
+    margin-left: 20px;
 }
 
 /*  SECOND SECTION */
