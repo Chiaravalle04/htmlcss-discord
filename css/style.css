@@ -167,11 +167,36 @@ header {
     min-height: 900px;
     display: flex;
     align-items: center;
+    background-color: #f6f6f6;
 }
 
 .fifth-container {
     width: 1200px;
-    height: 800px;
+    min-height: 500px;
+    padding: 200px 150px 0;
+    text-align: center;
+}
+
+.fifth-container h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.fifth-container .title-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(../img/stars.svg);
+}
+
+.fifth-container button {
+    margin: 20px 0 100px 0;
+    padding: 13px 20px;
+    border-radius: 33px;
+    color: #ffffff;
+    background-color: #8ea1e1;
+    border-style: none;
+    font-size: 15px;
 }
 
 /* LAST SECTION */
