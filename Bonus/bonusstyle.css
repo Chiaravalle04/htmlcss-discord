@@ -318,6 +318,13 @@ header {
     font-size: 15px;
 }
 
+.last-small-container a:hover {
+    color: #ffffff;
+    margin: 5px 0;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
 /* --- STRUTTURA FOOTER --- */
 footer {
     min-height: 90px;
